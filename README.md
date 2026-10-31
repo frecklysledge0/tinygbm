@@ -6,8 +6,6 @@
 
 ## Why this project exists
 
-This is the kind of project I want in a quantitative-research portfolio: compact enough to finish, but rich enough to demonstrate both mathematical understanding and engineering discipline.
-
 It brings together:
 
 - **ML theory** — gradient boosting, residuals, loss functions, and greedy split selection
@@ -18,7 +16,7 @@ It brings together:
 - **Benchmarking** — measured comparisons instead of intuition-driven optimization
 - **Validation** — C++ and Python tests that keep the implementation honest
 
-The project also pairs naturally with C++ algorithm practice: the same attention to invariants, complexity, memory, and edge cases matters here, but in a complete end-to-end system.
+The same attention to invariants, complexity, memory, and edge cases applies throughout the project.
 
 ## Current project shape
 
@@ -54,18 +52,6 @@ The repository is intentionally being built in layers. Empty directories and pla
 - Every behavior change should have a test
 - Small APIs, explicit invariants, and readable code
 - No claim of performance without reproducible measurements
-
-## Portfolio value
-
-Yes—this is a strong starting point for a quant-focused portfolio, especially because it has a clear finish line and supports a credible technical narrative. The strongest version will be a finished, reproducible project rather than a large unfinished framework. Prioritize:
-
-- a working model on a small real dataset
-- reference-vs-C++ numerical parity
-- profiling and benchmark results with methodology
-- tests for degenerate inputs and numerical edge cases
-- a short write-up explaining the math and engineering trade-offs
-
-That combination will communicate more than a repository full of placeholders: it will show that you can understand a model, implement it, measure it, and explain it.
 
 ## Status
 
